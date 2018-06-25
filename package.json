@@ -1,6 +1,6 @@
 {
   "name": "webpack-error-notification-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Webpack plugin to notify developers with beeps and toasts about build errors.",
   "homepage": "https://github.com/nihilor/webpack-error-notification-plugin",
   "main": "index.js",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://https://github.com/nihilor/webpack-error-notification-plugin.git"
+    "url": "git://github.com/nihilor/webpack-error-notification-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/nihilor/webpack-error-notification-plugin/issues"
