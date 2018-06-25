@@ -1,6 +1,6 @@
 # ErrorNotificationPlugin
 
-A simple Webpack plugin to notify developers with beeps and platform native toasts about build errors. As soon as the build process of Webpack fails, the plugin beeps and toasts the error message. Developers won't miss build errors only if they're afk.
+A simple Webpack plugin to notify developers with beeps and platform native toasts about build errors. As soon as the build process of Webpack fails or completes with errors, the plugin beeps and toasts the errors. Developers won't miss build errors again, unless they're afk.
 
 ## Installation
 
