@@ -17,7 +17,7 @@ Two steps are neccessary to activate the plugin. Both take place in the `webpack
 First, import the plugin by adding the following line to the top of the configuration file.
 
 ```javascript
-var ErrorNotificationPlugin = require('../../webpack-error-notification-plugin')
+var ErrorNotificationPlugin = require('webpack-error-notification-plugin')
 ```
 
 Second, add the `ErrorNotificationPlugin` to the configuration object:
