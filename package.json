@@ -1,6 +1,6 @@
 {
   "name": "webpack-error-notification-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple Webpack plugin to notify developers with beeps and toasts about build errors.",
   "main": "index.js",
   "scripts": {
