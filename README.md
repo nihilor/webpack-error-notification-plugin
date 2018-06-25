@@ -1,10 +1,10 @@
 # ErrorNotificationPlugin
 
-A simple Webpack plugin to notify developers with beeps and platform native toasts about build errors. As soon as the build process of Webpack fails, the plugins beeps and toasts the error message, so the developers won't miss build errors.
+A simple Webpack plugin to notify developers with beeps and platform native toasts about build errors. As soon as the build process of Webpack fails, the plugin beeps and toasts the error message. Developers won't miss build errors only if they're afk.
 
 ## Installation
 
-Install the `ErrorNotificationPlugin` from [npm](https://www.npmjs.com/):
+Install the `ErrorNotificationPlugin` from [npm](https://www.npmjs.com/package/webpack-error-notification-plugin):
 
 ```console
 npm install --save-dev webpack-error-notification-plugin
@@ -12,15 +12,15 @@ npm install --save-dev webpack-error-notification-plugin
 
 ## Activation
 
-Two steps are neccessary to activate the plugin. Both happen in the `webpack.config.js` - or whatever you named your configuration file for webpack.
+Two steps are neccessary to activate the plugin. Both take place in the `webpack.config.js` - or whatever you named your configuration file for webpack.
 
-Import the plugin by adding the following line to the to of the configuration file.
+First, import the plugin by adding the following line to the top of the configuration file.
 
 ```javascript
 var ErrorNotificationPlugin = require('../../webpack-error-notification-plugin')
 ```
 
-Add the `ErrorNotificationPlugin` to the configuration object:
+Second, add the `ErrorNotificationPlugin` to the configuration object:
 
 ```javascript
 plugins: [
@@ -30,7 +30,7 @@ plugins: [
 
 ## Configuration
 
-You can choose the plugin should beep or show toasts by providing the corresponding parameters in your configuration file of webpack.
+You can choose how the plugin notifies the developers: with beeps, with toasts or both. Just provide the parameters `beep` and `toast` in your configuration file of webpack. Set `true` to activate and `false` to disable the notification type.
 
 ```javascript
 plugins: [

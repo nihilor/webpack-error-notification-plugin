@@ -1,6 +1,6 @@
 /*
 webpack-error-notification-plugin -- Simple Webpack plugin to notify developers about build errors.
-Copyright (c) 2018 Mark Lubkowitz <me@mlu.io>
+Copyright (c) 2018 Mark Lubkowitz <mail@mark-lubkowitz.de>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

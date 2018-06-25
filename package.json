@@ -1,7 +1,8 @@
 {
   "name": "webpack-error-notification-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Webpack plugin to notify developers with beeps and toasts about build errors.",
+  "homepage": "https://github.com/nihilor/webpack-error-notification-plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +13,20 @@
     "Notification",
     "Plugin"
   ],
-  "author": "Mark Lubkowitz",
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/nihilor/webpack-error-notification-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nihilor/webpack-error-notification-plugin/issues"
+  },
+  "author": {
+    "name": "Mark Lubkowitz",
+    "email": "mail@mark-lubkowitz.de",
+    "url": "http://www.mark-lubkowitz.de"
+  },
   "license": "MIT",
   "dependencies": {
-    "node-notifier": "^5.2.1"
+    "node-notifier": "5.2.1"
   }
 }
